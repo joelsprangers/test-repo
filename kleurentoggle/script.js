@@ -110,7 +110,7 @@ const pressKey = function (e) {
     }
 }
 
-document.addEventListener('keypress', pressKey);
+document.addEventListener('keypress ', pressKey);
 
 //calls
 toggleButton.addEventListener('mouseover', slideRight);
